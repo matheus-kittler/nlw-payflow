@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "787282585919",
+    "project_id": "nlw-playflow",
+    "storage_bucket": "nlw-playflow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787282585919:android:6f3b863ef1e5f9d6ce0b8a",
+        "android_client_info": {
+          "package_name": "nlw.payflow.kittler.matheus.payflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787282585919-jisvg5o8n9mk1u7a2lh3e9u6q4kl36s9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nlw.payflow.kittler.matheus.payflow",
+            "certificate_hash": "f3d493f9e78cae7ebfc56346385e4779d8323ce8"
+          }
+        },
+        {
+          "client_id": "787282585919-00ff1rde0te108r7265pgp6gbbmq94ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp94RoZ8IdyyoDF0n4aZ5NkyS8qw_szkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787282585919-00ff1rde0te108r7265pgp6gbbmq94ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

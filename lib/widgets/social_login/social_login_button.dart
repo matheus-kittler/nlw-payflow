@@ -45,7 +45,7 @@ class SocialLoginButton extends StatelessWidget {
                 children: [
                   Text(
                     "Entrar com Google",
-                    style: AppTextStyles.buttonGray,
+                    style: TextStyles.buttonGray,
                   ),
                 ],
               ),
