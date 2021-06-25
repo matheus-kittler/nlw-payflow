@@ -18,7 +18,6 @@ class _HomePageState extends State<HomePage> {
     ),
     Container(color: Colors.blue),
   ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +31,7 @@ class _HomePageState extends State<HomePage> {
               title: Text.rich(
                 TextSpan(
                     text: "Olá, ",
-                    style: TextStyles.titleBoldBackground,
+                    style: TextStyles.titleRegular,
                     children: [
                       TextSpan(
                           text: "Gabul", style: TextStyles.titleBoldBackground)
@@ -70,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                 )),
             GestureDetector(
               onTap: () {
-                print("Clicou");
+                Navigator.pushNamed(context, "/barcode_scanner");
               },
               child: Container(
                 width: 56,
